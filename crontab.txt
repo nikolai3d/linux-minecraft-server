@@ -1,0 +1,3 @@
+0 4 * * * /root/linux-minecraft-server/bedrock-world-backup.sh
+0 3 * * * /root/linux-minecraft-server/bedrock-logrotate.sh
+
