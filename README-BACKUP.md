@@ -43,7 +43,7 @@ WantedBy=multi-user.target
 
 ### Backup Script
 
-**Path:** `/root/bedrock_scripts/bedrock-world-backup.sh`
+**Path:** `/root/linux-minecraft-server/bedrock-world-backup.sh`
 
 **What it does:**
 - Sends `save hold`, `save query`, and `save resume` to the Bedrock server inside the `screen` session
@@ -57,7 +57,7 @@ WantedBy=multi-user.target
 **Path:** root's crontab
 
 ```
-0 4 * * * /root/bedrock_scripts/bedrock-world-backup.sh
+0 4 * * * /root/linux-minecraft-server/bedrock-world-backup.sh
 ```
 
 This runs the backup script daily at **4:00 AM Pacific Time**.

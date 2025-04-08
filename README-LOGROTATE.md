@@ -10,13 +10,8 @@ This script rotates and archives the `latest.log` file from the Bedrock server.
 
 ## Usage
 
-This script is executed daily via cron:
-```bash
-/etc/cron.daily/bedrock-logrotate
-```
-
-You can also run it manually
+This script is executed daily via cron: You can also run it manually
 
 ```bash
-bash /root/bedrock_scripts/bedrock-logrotate.sh
+bash /root/linux-minecraft-server/bedrock-logrotate.sh
 ```
