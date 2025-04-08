@@ -1,0 +1,14 @@
+[Unit]
+Description=Nikolai Minecraft Bedrock Server
+After=network.target
+
+[Service]
+WorkingDirectory=/root/bedrock
+ExecStart=/usr/bin/screen -DmS nikolai-bedrock /root/bedrock/bedrock_server
+ExecStop=/usr/bin/screen -S nikolai-bedrock -X quit
+Restart=on-failure
+RestartSec=10
+User=root
+
+[Install]
+WantedBy=multi-user.target
