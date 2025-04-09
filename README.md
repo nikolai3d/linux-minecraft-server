@@ -13,5 +13,6 @@ Notes and scripts for setting up Bedrock Minecraft Server on Linux
 
 [README-LOGROTATE.md](README-LOGROTATE.md)
 
-## ChatGPT Links on the steps
+## Mods/Addons/Packs
 
+[README-MODS-ADDONS-PACKS.md](README-MODS-ADDONS-PACKS.md)
